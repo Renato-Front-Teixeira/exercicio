@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+BODY{
+    background-color: honeydew;
+
+}
+H1{
+
+font-family: Arial, Helvetica, sans-serif;
+color: aqua;
+text-align: center;
+}
+h1:hover{
+    color: blue;
+}
+
+h1#documento1 > p{
+    display: none;
+        }
+    h1#documento1:hover > p{
+    display: block;
+    color: brown;
+font-size: 20px;
+    }
+    h1#documento1:hover{
+        color: blue;
+    }
+
+DIV{
+    background-color: darkgray;
+    width: 100PX;
+    height: 100PX;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+DIV:hover{
+background-color: blueviolet;
+color: blue;
+width: 100PX;
+height: 100PX;
+}
+
+div > p{
+display: none;
+}
+div:hover > p{
+color: blue;
+width: 100px;
+height: 100px;
+display: block;
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.novoestylo{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
